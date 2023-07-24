@@ -1,0 +1,170 @@
+
+/* Google Font*/
+*{
+    font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url('/images/photo-1556817411-31ae72fa3ea0.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+h3{
+    color: #fff;
+    background-color:rgba(19, 22, 33, 0.5);
+    display: inline-block;
+    font-size: 5rem;
+    font-family: 'Philosopher', sans-serif;
+  }
+  footer{
+    background-color: rgba(10, 30, 37, 0.77);
+    padding-bottom: 50px;
+
+  }
+
+.footer-flex-container{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+
+    justify-content: space-around;
+    flex-grow: 3;
+  }
+
+h3 span{
+    color: red;
+}
+.btn{
+  margin-top: 1rem;
+  width: 150px;
+  padding: 12px;
+  background-color: white; /* Replace 'rgba(0, 0, 255, 0.5)' with your desired blue color and transparency (0.5 is 50% transparency) */
+  color: black; /* Set text color to white (or any color you prefer) */
+  border: none; /* Remove default button border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border-radius: 4px;
+  font-weight: 700;
+  mix-blend-mode:screen;
+  cursor: pointer;
+}
+.btn:hover{
+  /* background: ; */
+  transition: 0.4s;
+}
+/* Header */
+.header{
+  background-color:rgba(19, 22, 33, 0.91);  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  height: 30px;
+}
+.header .logo{
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  padding-right: 10px;
+  margin-right: 20rem;
+}
+.header .logo i{
+  color: #fff;
+  padding: 0.5rem;
+}
+.header .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.header .navbar a:hover{
+  color: #baa6cf;
+}
+.header .btn{
+  background: #959197;
+  font-size: 12px;
+  padding: 8px;
+} 
+
+/* Home Section */
+.max-width{
+  max-width: 1300px;
+  padding: 0 300px;
+  margin: auto;
+}
+section{
+  padding: 50px 0 50px 0;
+}
+.home{
+  display: flex;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+
+.home .home-content{
+  width: 50%;
+  padding: 2rem;
+}
+.home h3:first-of-type{
+  
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Philosopher', sans-serif;
+}
+.home p{
+color: #D9D5D6;
+background-color:rgba(19, 22, 33, 0.5);
+    display: inline-block;
+    font-weight: 600;
+  font-size: 25px;
+}
+.home .home-image{
+  width: 50%;
+}
+.home .home-image img{
+  width: 100%;
+  height: 100%;
+}
+
+
+footer h3 {
+  font-size: medium;
+  width: 40%;
+}
+footer p {
+  font-size: medium;
+  color: white;
+}
+footer ul{
+  list-style: none;
+  font-size: small;
+  color: white;
+
+}
+.footer-content {
+  width: 400px;
+}
+ul li:first-child{
+  font-size: medium;
+  padding: 10px 0;
+}
