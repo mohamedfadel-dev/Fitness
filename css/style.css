@@ -156,7 +156,15 @@ footer p {
   color: white;
 }
 footer ul{
-  text-decoration: none;
+  list-style: none;
+  font-size: small;
   color: white;
 
+}
+.footer-content {
+  width: 400px;
+}
+ul li:first-child{
+  font-size: medium;
+  padding: 10px 0;
 }
