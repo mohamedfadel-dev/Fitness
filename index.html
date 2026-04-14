@@ -2,76 +2,217 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitNess - Home | By Fadali</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">
-            <i class="fas fa-dumbbell"></i>FitNess
-        </a>
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Photos</a>
-            <a href="#">Pricing</a>
-            <a href="#">Contact</a>
-            <a href="#">|</a>
-            <a href="#">Login</a>
-            <a href="#" class="btn">Sign Up</a>
-        </nav>
-    </header>
+    <div class="page-shell">
+        <header class="site-header">
+            <a href="#" class="logo">
+                <i class="fas fa-dumbbell"></i>
+                <span>FitNess</span>
+            </a>
+            <nav class="navbar">
+                <a href="#programs">Programs</a>
+                <a href="#results">Results</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="text-link">Login</a>
+                <a href="#pricing" class="btn btn-solid">Join Now</a>
+            </div>
+        </header>
 
-    <section class="home">
-        <div class="max-width">
-            <div class="home-content">
-                <h3>Fitness</h3>
-                <h3>HUB<span>.</span></h3>
-                <p>No Pain No Gain</p>
-                <button class="btn"><span>Join Our Club</span></button>
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow">Built for everyday athletes</p>
+                    <h1>Train hard. Recover smarter. Look like you mean it.</h1>
+                    <p class="hero-text">
+                        FitNess Hub is a modern training club for strength, conditioning, and body
+                        transformation. Structured coaching, bold spaces, and a community that keeps
+                        you moving when motivation drops.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#pricing" class="btn btn-solid">Start Membership</a>
+                        <a href="#programs" class="btn btn-ghost">Explore Programs</a>
+                    </div>
+                    <div class="hero-stats">
+                        <article>
+                            <strong>12+</strong>
+                            <span>Elite coaches</span>
+                        </article>
+                        <article>
+                            <strong>4.9</strong>
+                            <span>Member rating</span>
+                        </article>
+                        <article>
+                            <strong>24/7</strong>
+                            <span>Access for members</span>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="hero-panel">
+                    <div class="hero-card hero-card-main">
+                        <p>Today at FitNess</p>
+                        <h2>Strength Lab</h2>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Coach-led lifting blocks</li>
+                            <li><i class="fas fa-check"></i> Mobility and recovery zone</li>
+                            <li><i class="fas fa-check"></i> Nutrition tracking support</li>
+                        </ul>
+                    </div>
+                    <div class="hero-card hero-card-accent">
+                        <span>New</span>
+                        <strong>6-week transformation challenge</strong>
+                    </div>
+                </div>
+            </section>
+
+            <section class="feature-strip">
+                <article>
+                    <i class="fas fa-bolt"></i>
+                    <div>
+                        <h3>Performance-first programming</h3>
+                        <p>Workouts designed around progression, not random exhaustion.</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fas fa-heart-pulse"></i>
+                    <div>
+                        <h3>Recovery built into the plan</h3>
+                        <p>Mobility, conditioning, and smart volume to keep you consistent.</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <h3>Real coaching community</h3>
+                        <p>Supportive trainers and members who show up and do the work.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="programs" id="programs">
+                <div class="section-heading">
+                    <p class="eyebrow">Programs</p>
+                    <h2>Choose the training style that fits your goal.</h2>
+                </div>
+                <div class="program-grid">
+                    <article class="program-card">
+                        <span class="program-tag">Strength</span>
+                        <h3>Power Build</h3>
+                        <p>Foundational compound lifts, progressive overload, and coach reviews every week.</p>
+                    </article>
+                    <article class="program-card">
+                        <span class="program-tag">Conditioning</span>
+                        <h3>Engine Room</h3>
+                        <p>Hybrid cardio and athletic circuits built to increase output without burning you out.</p>
+                    </article>
+                    <article class="program-card">
+                        <span class="program-tag">Lifestyle</span>
+                        <h3>Body Reset</h3>
+                        <p>Simple routines, accountability, and nutrition guidance for sustainable fat loss.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="results" id="results">
+                <div class="section-heading">
+                    <p class="eyebrow">Club energy</p>
+                    <h2>A sharper look for a stronger brand.</h2>
+                </div>
+                <div class="results-grid">
+                    <article class="result-card tall-card">
+                        <img src="./images/graham-mansfield-y7ywDXWJ-JU-unsplash.jpg" alt="Athlete training in the gym">
+                        <div class="result-copy">
+                            <h3>Push harder with better structure.</h3>
+                            <p>Every zone in the club is designed around flow, focus, and visible progress.</p>
+                        </div>
+                    </article>
+                    <article class="result-card">
+                        <img src="./images/photo-1556817411-31ae72fa3ea0.avif" alt="Modern fitness gym interior">
+                    </article>
+                    <article class="result-card quote-card">
+                        <p>"The gym finally feels premium instead of generic. The coaching is what kept me here."</p>
+                        <span>Samir, member for 8 months</span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="pricing" id="pricing">
+                <div class="section-heading">
+                    <p class="eyebrow">Pricing</p>
+                    <h2>Simple plans with clear value.</h2>
+                </div>
+                <div class="pricing-grid">
+                    <article class="price-card">
+                        <p class="price-label">Starter</p>
+                        <h3>$29<span>/mo</span></h3>
+                        <ul>
+                            <li>Gym floor access</li>
+                            <li>2 guided classes weekly</li>
+                            <li>Basic performance tracking</li>
+                        </ul>
+                        <a href="#" class="btn btn-ghost">Choose Starter</a>
+                    </article>
+                    <article class="price-card featured">
+                        <p class="price-label">Pro Membership</p>
+                        <h3>$59<span>/mo</span></h3>
+                        <ul>
+                            <li>24/7 full access</li>
+                            <li>Unlimited classes</li>
+                            <li>Monthly coach consultation</li>
+                        </ul>
+                        <a href="#" class="btn btn-solid">Go Pro</a>
+                    </article>
+                    <article class="price-card">
+                        <p class="price-label">Elite</p>
+                        <h3>$99<span>/mo</span></h3>
+                        <ul>
+                            <li>Private programming</li>
+                            <li>Nutrition support</li>
+                            <li>Weekly body composition check-ins</li>
+                        </ul>
+                        <a href="#" class="btn btn-ghost">Choose Elite</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer" id="contact">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitNess</span>
+                </a>
+                <p>Train with intent. Recover with discipline. Build a body that feels powerful.</p>
             </div>
-  
-        
-    </section>
-    <footer>
-        <div class="footer-flex-container">
-            <div class="din1"><div class="footer-content"><h3>Fitnesss Hub<span>.</span></h3><p>No Pain No Gain</p></div></div>
-            <div class="first-content">
-                <ul>
-                    <li>About US</li>
-                    <li>Our Trainners</li>
-                    <li>Our Club</li>
-                    <li>Our Legacy</li>
-                </ul>
+            <div class="footer-links">
+                <div>
+                    <h4>Visit</h4>
+                    <p>Downtown Training District</p>
+                    <p>Open daily from 6:00 AM</p>
+                </div>
+                <div>
+                    <h4>Connect</h4>
+                    <p>hello@fitnesshub.club</p>
+                    <p>+212 600 000 000</p>
+                </div>
+                <div>
+                    <h4>Follow</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="din2">
-                <ul>
-                    <li>Your Fitness</li>
-                    <li>Why FitnessHub?</li>
-                    <li>Training</li>
-                    <li>Workout Tips</li>
-                    <li>Health</li>
-                </ul>
-            </div>
-            <div class="din3">
-                <ul>
-                    <li>Connect</li>
-                    <li><i class="fa-brands fa-facebook"></i> Facebook</li>
-                    <li><i class="fa-brands fa-instagram"></i> Instagram</li>
-                    <li><i class="fa-brands fa-whatsapp"></i> Whatsapp</li>
-                </ul>
-            </div>
-            <div class="din4">
-                <ul>
-                    <li>More</li>
-                    <li>Shop</li>
-                    <li>Careers</li>
-                    <li>News</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
